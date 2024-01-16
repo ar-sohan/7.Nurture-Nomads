@@ -1,0 +1,364 @@
+/*----------------------------
+         font setup
+------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap');
+*{
+        font-family: 'Mulish', sans-serif;
+}
+/*----------------------------
+        common styles
+------------------------------*/
+.text-special{
+        color: #FF5400;
+}
+.btn-primary{
+        padding: 15px 20px;
+        background-color: #FF5400;
+        color: white;
+        border: none;
+        font-size: 20px;
+        font-weight: 800;
+        border-radius: 10px;
+}
+.section-title{
+        color: #131318;
+        font-size: 40px;
+        font-weight: 800;
+}
+.section-sub-title{
+        color: #131318;
+        font-size: 24px;
+        font-weight: 800;
+}
+.section-description{
+        color: rgba(19, 19, 24, 0.70);
+}
+.text-center{
+        text-align: center;
+}
+/*----------------------------
+        header section
+------------------------------*/
+.header{
+        padding: 60px 100px;
+}
+/*----------------------------
+        the nav section
+------------------------------*/
+.nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+.logo{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+}
+.Logo-text{
+        color: #131318;
+        font-size: 36px;
+        font-weight: 800;
+}
+.nav > ul{
+        display: flex;
+        gap: 30px;
+        list-style-type: none;
+}
+.nav ul li a{
+        text-decoration: none;
+        color: #424247;
+        font-size: 18px;
+}
+/*----------------------------
+       the banner section
+------------------------------*/
+.banner{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 100px 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("Images/Group\ 13\ \(1\)\ \(1\).png");
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.banner-title{
+        color: #FFF;
+        margin-bottom: 0px;
+        font-size: 64px;
+        font-weight: 800;
+}
+.banner-description{
+        color: #FFF;
+        text-align: center;
+}
+.input-form{
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.30);
+        border-radius: 10px;
+        display: inline-flex;
+        backdrop-filter: blur(2px);
+        gap: 15px;
+        position: relative;
+}
+.input-form > input{
+        border-radius: 15px;
+        padding: 16px;
+        border: none;
+        box-sizing: border-box;
+}
+.icon{
+        position: absolute;
+        top: 50%;
+        left: 480px;
+        transform: translateY(-50%);
+        color: #888;
+}
+.icon2{
+        position: absolute;
+        top: 50%;
+        right: 200px;
+        transform: translateY(-50%);
+        color: #888;
+}
+/*----------------------------
+        popular tours
+------------------------------*/
+.popular-tour{
+        padding: 60px 100px;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+}
+.popular-details{
+        padding-right: 40px;
+}
+.popular-details > ul li{
+        padding-bottom: 20px;
+}
+/*----------------------------
+     destination section
+------------------------------*/
+.destination{
+        padding: 60px 100px;
+        margin-top: 50px;
+}
+.destination-graphics{
+        padding: 50px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.destination-1{
+        display: flex;
+        gap: 25px;
+        padding-bottom: 25px;
+}
+.destination-2{
+        display: flex;
+        gap: 25px;
+        padding-bottom: 25px;
+}
+.destination-3{
+        display: flex;
+        gap: 25px;
+        padding-bottom: 25px;
+}
+
+.destination-graphics  .destination-image{
+        position: relative;
+        background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% ;
+        background-size:  cover;
+        background-repeat:  no-repeat;
+}
+.destination-graphics  .destination-image img{
+        z-index: 10;
+}
+.destination-graphics  .destination-image p{
+        color: #FFF;
+        font-size: 28px;
+        font-weight: 800;
+        position: absolute;
+        top: 45%;
+        left: 40%;
+        z-index: 20;
+}
+/*----------------------------
+     why choose us section
+------------------------------*/
+.choose{
+        padding: 60px 100px;
+}
+.reasons{
+        padding-top: 50px;
+        display: flex;
+        gap: 25px;
+}
+.reason{
+        padding: 32px;
+        border-radius: 15px;
+}
+.reason-1{
+        background-color: rgba(251, 181, 99, 0.05);
+        border: 1px solid rgba(251, 181, 99, 0.20);
+}
+.reason-2{
+        background-color: rgba(41, 206, 246, 0.05);
+        border: 1px solid  rgba(41, 206, 246, 0.20);
+}
+.exception-reason{
+        display: flex;
+        margin: 25px 0px;
+}
+.reason-3{
+        margin: 0 auto;
+        width: 50%;
+        padding: 32px;
+        border-radius: 15px;
+        background-color: rgba(233, 68, 68, 0.05);
+        border: 1px solid rgba(233, 68, 68, 0.20);
+}
+/*----------------------------
+      deals and discounts
+------------------------------*/
+.deals{
+        padding: 60px 100px;
+}
+.deal-1{
+        display: flex;
+        justify-content: end;
+        margin-top: 50px;
+        background-image: url("./Images/Group\ 39.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 50px;
+}
+.deal-2{
+        display: flex;
+        justify-content: start;
+        margin-top: 50px;
+        background-image: url("./Images/Group\ 40.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 50px;
+}
+.deal-content{
+        padding: 50px;
+        width: 40%;
+        border-radius: 20px;
+        backdrop-filter: blur(2px);
+        background-color: rgba(255, 255, 255, 0.80);
+        border: 2px solid #FFF;
+}
+.deal-content ul{
+        list-style-type: none;
+        display: flex;
+        padding-left: 0px;
+}
+.deal-content ul li{
+        padding-right: 20px;
+}
+.price{
+        color: #FF5400;
+        font-size: 20px;
+        font-weight: 800;
+}
+.btn-see-all{
+        padding-top: 50px;
+        text-align: center;
+}
+/*----------------------------
+       get lost section
+------------------------------*/
+.get-lost{
+        padding: 60px 100px;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+}
+.lost-details{
+        padding: 0px 50px;
+}
+.lost-details ul li{
+        color: #131318;
+        font-weight: 700;
+        padding-bottom: 20px;
+}
+/*----------------------------
+        the newsletter
+------------------------------*/
+.newsLetter{
+        margin-top: 30px;
+        padding: 60px 100px;
+        display: flex;
+        align-items: center;
+        gap: 25px;
+}
+.signUp{
+        padding: 40px;
+        border-radius: 15px;
+        border: 1px solid #FF5400;
+}
+.signUp-hr{
+        background-color: rgba(19, 19, 24, 0.10)
+}
+.signUp-form{
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+}
+.signUp-input{
+        padding: 15px 20px;
+        color: rgba(19, 19, 24, 0.30);
+        border: none;
+        background-color: rgba(19, 19, 24, 0.05);
+        border-radius: 10px;
+}
+.signUp-graphics{
+        position: relative;
+}
+.offer{
+        position: absolute;
+        bottom: 15%;
+        left: 59%;
+        transform: rotate(-30deg);
+        background-color: #FF5400;
+        border-radius: 15px;
+        padding: 15px;
+}
+.offer-text{
+        color: #FFF;
+        font-size: 24px;
+        margin: 0px;
+        text-align: center;
+}
+.offer-heading{
+        color: #FFF;
+        font-size: 32px;
+        margin: 0px;
+        font-weight: 800;
+}
+/*----------------------------
+       the footer section
+------------------------------*/
+footer{
+        background-color: rgba(19, 19, 24, 0.05);
+        margin-top: 60px;
+        padding: 60px 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+}
+/*-------------------------------------
+    responsive for mobile devices
+---------------------------------------*/
+/*-------------------------------------
+    responsive for medium devices
+---------------------------------------*/
