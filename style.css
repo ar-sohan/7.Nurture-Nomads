@@ -462,7 +462,7 @@ footer{
                 left: 50%;
                 bottom: 20%;
         }
-        .destination-graphics .destination-image img, .lost-graphics img{
+        .destination-graphics .destination-image img, .lost-graphics img, .popular-graphics img{
                 width: 95vw;
         }
         .deal-1, .deal-2{
