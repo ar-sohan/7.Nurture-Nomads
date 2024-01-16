@@ -437,7 +437,7 @@ footer{
         }
         .header, .popular-tour, .destination, .get-lost, .newsLetter, .choose, .deals, .deal-1,.deal-2, .deal-content, .review-section{
                 padding: 20px 10px;
-                margin-bottom:20px;
+                /* margin:10px 20px; */
         }
         .nav > ul{
                 display: none;
@@ -454,16 +454,12 @@ footer{
                 gap: 20px;
                 justify-content: center;
         }
-        .signUp-graphics  img{
-                width: 95vw;
-                padding-top: 20px;
-        }
         .offer{
-                left: 50%;
+                left: 53%;
                 bottom: 20%;
         }
-        .destination-graphics .destination-image img, .lost-graphics img, .popular-graphics img{
-                width: 95vw;
+        .destination-graphics .destination-image img, .lost-graphics img, .popular-graphics img, .signUp-graphics  img{
+                width: 90vw;
         }
         .deal-1, .deal-2{
                 justify-content: center;
@@ -481,10 +477,10 @@ footer{
         /*----------------------------
         common styles
         ------------------------------*/
-        .section-title, .banner-title{
+        .section-title, .banner-title, .offer-heading{
                 font-size: 24px;
         }
-        .section-sub-title{
+        .section-sub-title, .offer-text{
                 font-size: 20px;
         }
         .section-description{
