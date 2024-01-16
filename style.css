@@ -45,6 +45,9 @@
 .header{
         padding: 60px 100px;
 }
+.title-bar{
+        display: none;
+}
 /*----------------------------
         the nav section
 ------------------------------*/
@@ -52,6 +55,9 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+}
+.menubar{
+        display: none;
 }
 .logo{
         display: flex;
@@ -376,9 +382,20 @@ footer{
     responsive for mobile devices
 ---------------------------------------*/
 @media screen and (max-width: 600px){
+        .title-bar{
+                display: flex;
+                margin-top: 0px;
+                padding: 0px 10px;
+                justify-content: space-between;
+        }
+        .mobile-icons{
+                display: flex;
+                gap: 20px;
+                align-items: center;
+        }
         .header, .popular-tour, .destination, .get-lost, .newsLetter, .choose, .deals, .deal-1,.deal-2, .deal-content{
                 padding: 20px 10px;
-                margin-bottom:10px 20px;
+                margin-bottom:20px;
         }
         .nav > ul{
                 display: none;
@@ -415,6 +432,25 @@ footer{
         }
         .reason-3{
                 width: auto;
+        }
+        .menubar{
+                display: contents;
+        }
+        /*----------------------------
+        common styles
+        ------------------------------*/
+        .section-title, .banner-title{
+                font-size: 24px;
+        }
+        .section-sub-title{
+                font-size: 20px;
+        }
+        .section-description{
+                color: rgba(19, 19, 24, 0.70);
+                font-size: 14px;
+        }
+        .banner-description{
+                font-size: 14px;
         }
 }
 /*-------------------------------------
