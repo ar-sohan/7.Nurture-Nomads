@@ -300,6 +300,48 @@
         padding-bottom: 20px;
 }
 /*----------------------------
+        the reviews
+------------------------------*/
+.review-section{
+        padding: 60px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+.review-details{
+        padding: 0px 50px;
+        line-height: 32px;
+}
+.review-details ul{
+        list-style-type: none;
+        list-style-image: url("./Images/icons/Done_ring_round_fill.png");
+}
+.review-details ul li{
+        padding-bottom: 20px;
+        align-items: center;
+}
+.review-1{
+        border: 2px solid white;
+        padding: 20px;
+        margin-bottom: 30px;
+        margin-left: 20%;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+}
+.review-2{
+        border: 2px solid white;
+        padding: 20px;
+        margin-right: 20%;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+}
+.user{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding-bottom: 10px;
+}
+/*----------------------------
         the newsletter
 ------------------------------*/
 .newsLetter{
@@ -393,7 +435,7 @@ footer{
                 gap: 20px;
                 align-items: center;
         }
-        .header, .popular-tour, .destination, .get-lost, .newsLetter, .choose, .deals, .deal-1,.deal-2, .deal-content{
+        .header, .popular-tour, .destination, .get-lost, .newsLetter, .choose, .deals, .deal-1,.deal-2, .deal-content, .review-section{
                 padding: 20px 10px;
                 margin-bottom:20px;
         }
@@ -407,7 +449,7 @@ footer{
         .icon2{
                 top: 62%;
         }
-        .input-form, .popular-tour, .destination-1, .destination-2, .destination-3, .reasons, .get-lost, .newsLetter, .deal-content ul{
+        .input-form, .popular-tour, .destination-1, .destination-2, .destination-3, .reasons, .get-lost, .newsLetter, .deal-content ul, .review-section{
                 flex-direction: column;
                 gap: 20px;
                 justify-content: center;
