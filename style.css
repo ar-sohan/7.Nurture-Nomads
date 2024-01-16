@@ -13,6 +13,9 @@
 }
 .btn-primary{
         padding: 15px 20px;
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
         background-color: #FF5400;
         color: white;
         border: none;
@@ -114,14 +117,14 @@
 .icon{
         position: absolute;
         top: 50%;
-        left: 480px;
+        left: 50%;
         transform: translateY(-50%);
         color: #888;
 }
 .icon2{
         position: absolute;
         top: 50%;
-        right: 200px;
+        right: 22%;
         transform: translateY(-50%);
         color: #888;
 }
@@ -260,7 +263,9 @@
         padding-left: 0px;
 }
 .deal-content ul li{
-        padding-right: 20px;
+        display: inline-flex;
+        align-items: center;
+        padding-right: 15px;
 }
 .price{
         color: #FF5400;
@@ -312,6 +317,17 @@
         flex-direction: column;
         gap: 25px;
 }
+.signUp-form .btn-subscribe{
+        width: 100%;
+        padding: 15px 20px;
+        gap: 10px;
+        background-color: #FF5400;
+        color: white;
+        border: none;
+        font-size: 20px;
+        font-weight: 800;
+        border-radius: 10px;
+}
 .signUp-input{
         padding: 15px 20px;
         color: rgba(19, 19, 24, 0.30);
@@ -359,6 +375,48 @@ footer{
 /*-------------------------------------
     responsive for mobile devices
 ---------------------------------------*/
+@media screen and (max-width: 600px){
+        .header, .popular-tour, .destination, .get-lost, .newsLetter, .choose, .deals, .deal-1,.deal-2, .deal-content{
+                padding: 20px 10px;
+                margin-bottom:10px 20px;
+        }
+        .nav > ul{
+                display: none;
+        }
+        .icon{
+                top: 38%;
+                left: 70%;
+        }
+        .icon2{
+                top: 62%;
+        }
+        .input-form, .popular-tour, .destination-1, .destination-2, .destination-3, .reasons, .get-lost, .newsLetter, .deal-content ul{
+                flex-direction: column;
+                gap: 20px;
+                justify-content: center;
+        }
+        .signUp-graphics  img{
+                width: 95vw;
+                padding-top: 20px;
+        }
+        .offer{
+                left: 50%;
+                bottom: 20%;
+        }
+        .destination-graphics .destination-image img, .lost-graphics img{
+                width: 95vw;
+        }
+        .deal-1, .deal-2{
+                justify-content: center;
+        }
+        .deal-content{
+                width: 60%;
+                padding: 20px;
+        }
+        .reason-3{
+                width: auto;
+        }
+}
 /*-------------------------------------
     responsive for medium devices
 ---------------------------------------*/
