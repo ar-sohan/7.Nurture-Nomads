@@ -288,6 +288,7 @@
 .get-lost{
         padding: 60px 100px;
         display: flex;
+        justify-content: space-between;
         align-items: center;
         gap: 30px;
 }
@@ -299,15 +300,9 @@
         font-weight: 700;
         padding-bottom: 20px;
 }
-.floating-watch{
-        color: #FFF;
-        font-size: 28px;
-        text-align: center;
-        font-weight: 800;
-        position: absolute;
-        top: 35%;
-        left: 25%;
-        z-index: 20;
+.video{
+        width: 700px;
+        height: 400px;
 }
 /*----------------------------
         the reviews
@@ -468,7 +463,7 @@ footer{
                 left: 53%;
                 bottom: 20%;
         }
-        .destination-graphics .destination-image img, .lost-graphics img, .popular-graphics img, .signUp-graphics  img{
+        .destination-graphics .destination-image img, .popular-graphics img, .signUp-graphics  img{
                 width: 90vw;
         }
         .deal-1, .deal-2{
@@ -483,6 +478,10 @@ footer{
         }
         .menubar{
                 display: contents;
+        }
+        .video{
+                width: 380px;
+                height: 280px;
         }
         /*----------------------------
         common styles
@@ -504,3 +503,4 @@ footer{
 /*-------------------------------------
     responsive for medium devices
 ---------------------------------------*/
+/* nehi korenge, hamari marji */
